@@ -21,10 +21,19 @@
               "color_scheme": "background-1",
               "link": ""
             }
+          },
+          "d5c38a03-39e2-49c5-8722-307c86ded08f": {
+            "type": "announcement",
+            "settings": {
+              "text": "Hello baby!",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "d5c38a03-39e2-49c5-8722-307c86ded08f"
         ],
         "settings": {
         }
