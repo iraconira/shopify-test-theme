@@ -15,7 +15,6 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "color_scheme": "background-1",
@@ -24,8 +23,9 @@
           },
           "d5c38a03-39e2-49c5-8722-307c86ded08f": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
-              "text": "Hello baby!",
+              "text": "test - Hello baby!",
               "color_scheme": "accent-2",
               "link": ""
             }
