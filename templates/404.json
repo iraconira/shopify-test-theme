@@ -2,9 +2,13 @@
   "sections": {
     "main": {
       "type": "main-404"
+    },
+    "secondary": {
+      "type": "test-section"
     }
   },
   "order": [
-    "main"
+    "main", 
+    "secondary"
   ]
 }

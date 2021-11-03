@@ -1,0 +1,31 @@
+<div class="{% if section.settings.include_margins %}colored{% endif %}">
+  {%- for block in section.blocks -%}
+    {% render block %}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.test-section.name",
+  "tag": "section",
+  "class": "test-section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "is_colored",
+      "default": true,
+      "label": "t:sections.test-section.settings.is_colored.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.test-section.presets.name"
+    }
+  ]
+}
+{% endschema %}
